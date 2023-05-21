@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AppSample.css" class="css">
+</head>
+<body>
+    <script src="App1.js"></script>
+    <div class="wrapper">
+    <div class="weather-box">
+        <div class="title">
+            <h1>Weather Forecast</h1>
+        </div>
+        <div class="weather">
+            <input type="text" placeholder="Enter the city name" id="city" required>
+            <button onclick="sendRequest()" class="butSea"><img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-5.png" height="20px"></button>
+        </div>
+        <p id="error">Enter the city name to know the weather</p>
+        <div id="img">
+            <img src="https://cdn.icon-icons.com/icons2/565/PNG/512/clear-sun_icon-icons.com_54320.png" height="100px" id="Image" style="position: relative;top: -30px; left: 100px">
+        </div>
+        <div class="Temperature">
+            <h1 id="city-weather">0°C</h1>
+        </div>
+        <div class="city_Name">
+            <h2 id="Name">New york</h2>
+        </div>
+        <b><p id="Humid">Humidity : 0%</p></b>
+        <b><p id="Wspeed">Wind speed : 0km/h</p></b>
+    </div>
+    </div>
+    
+</body>
+</html>
+
+
+    
+    
+    
